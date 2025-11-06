@@ -1,16 +1,26 @@
 # Problem Set 1: Indexing and Slicing Strings
 # Basic Indexing:
 # Given the string magic = 'abracadabra',
+magic = 'abracadabra'
 # a. Retrieve the 5th character.
+fifth_char = print (magic [4])
 # b. Retrieve the second to last character.
-# c. Find the first occurrence of the letter 'c'.
+second_to_last_char = print (magic[-2])
+# c. Find the first occurrence of the letter 'c'... So the first time it appears is four
+first_c_index = print(magic.index('c'))
+# find first occurrence of the letter 'r'...So the first time it appears is two
+first_c_index = print(magic.index('r'))
+#find the last occurence of the letter 'a'. the r in '.rindex' stands for reverse. find the LAST occurence
+last_a_index = print(magic.rindex('a'))
+
 
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
 # a. Extract the letters 'hij'.
 # b. Extract every second letter starting from 'a' to 'm'.
 # c. Reverse the entire string using slicing.
-
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+letters = print()
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
