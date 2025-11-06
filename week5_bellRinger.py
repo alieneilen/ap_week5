@@ -18,21 +18,21 @@
 #------------------------------------------------------------------------------------------
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-# a. Extract the letters 'hij'.
-hij = print(alphabet.index('hij'))
-                        #based on this answer, add the 10 at the other side of 7:x. 
-hij2 = print (alphabet[7:10])
-# b. Extract every second letter starting from 'a' to 'm'.
-#get the letter m 
-m_index = print(alphabet.index('m'))
-every_second = print(alphabet[0:13:2])
-# c. Reverse the entire string using slicing.
-reversed_alphabet = print(alphabet [0: :-1])
+# alphabet = 'abcdefghijklmnopqrstuvwxyz'
+# # a. Extract the letters 'hij'.
+# hij = print(alphabet.index('hij'))
+#                         #based on this answer, add the 10 at the other side of 7:x. 
+# hij2 = print (alphabet[7:10])
+# # b. Extract every second letter starting from 'a' to 'm'.
+# #get the letter m 
+# m_index = print(alphabet.index('m'))
+# every_second = print(alphabet[0:13:2])
+# # c. Reverse the entire string using slicing.
+# reversed_alphabet = print(alphabet [0: :-1])
 
-i_have_a_dream = 'When we allow freedom to ring—when we let it ring from every city and every hamlet, from every state and every city, we will be able to speed up that day when all of God’s children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual, “Free at last, Free at last, Great God a-mighty, We are free at last.'
+# i_have_a_dream = 'When we allow freedom to ring—when we let it ring from every city and every hamlet, from every state and every city, we will be able to speed up that day when all of God’s children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual, “Free at last, Free at last, Great God a-mighty, We are free at last.'
 
-reversed_i_have_a_dream = print (i_have_a_dream [: :-1])
+# reversed_i_have_a_dream = print (i_have_a_dream [: :-1])
 # Problem Set 2: Extracting Information
 
 # From Descriptions:
@@ -44,9 +44,19 @@ john_f_kennedy = print (famous_quote.find("John F. Kennedy"))
 extracted_name = print(famous_quote[83:])
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
+info = "Python is fun. Fun is good. Good is subjective."
 # a. Extract the word 'subjective' without knowing its exact position.
-# b. Extract every third word.
+extracted_word = print (info.find("subjective"))
+word_subjective = print (info[36:])
+# b. Extract every third letter.
+third_letter = print (info [::3])
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
+words = info.split ()
+print (words) #output= ['Python', 'is', 'fun.', 'Fun', 'is', 'good.', 'Good', 'is', 'subjective.']
+reversed_words = ' '.join(reversed(words)) 
+#back into a string
+print (reversed_words) #output: 'subjective. is Good good. is Fun fun. is Python'
+
 
 # Problem Set 3: String Methods
 # Upper & Lower:
