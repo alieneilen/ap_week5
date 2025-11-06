@@ -63,24 +63,26 @@
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
-text= "MAY THE FORCE BE WITH YOU."
-print ("Lowercase text:", text.lower())
+# text= "MAY THE FORCE BE WITH YOU."
+# print ("Lowercase text:", text.lower())
 
-# String Joining and Splitting:
-# Given the list motto = ["Make", "haste", "slowly."],
-motto = "Make", "haste", "slowly."
-# a. Convert the list into a single string.
-joined_motto = ' '.join(motto)
-print (joined_motto)
-# b. Now, split the string at every occurrence of the letter 'a'.
+# # String Joining and Splitting:
+# # Given the list motto = ["Make", "haste", "slowly."],
+# motto = "Make", "haste", "slowly."
+# # a. Convert the list into a single string.
+# joined_motto = ' '.join(motto)
+# print (joined_motto)
+# # b. Now, split the string at every occurrence of the letter 'a'.
 
-joined_motto_split = joined_motto.split('a')
-print (joined_motto_split) #output:['M', 'ke h', 'ste slowly.']
+# joined_motto_split = joined_motto.split('a')
+# print (joined_motto_split) #output:['M', 'ke h', 'ste slowly.']
 
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
+sentence= "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
-# b. Replace "plans" with "mistakes".
+replaced_setence = print(sentence.replace("busy", "distracted").replace("plans","mistakes"))
+# b. Replace "plans" with "mistakes". ^^^^^^
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
