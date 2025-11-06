@@ -87,9 +87,11 @@ replaced_setence = print(sentence.replace("busy", "distracted").replace("plans",
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
+repeated_word = print ("iteration " *7)
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+quote= "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
 
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
