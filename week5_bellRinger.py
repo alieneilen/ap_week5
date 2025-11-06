@@ -92,6 +92,8 @@ repeated_word = print ("iteration " *7)
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
 quote= "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+word = "freedom"
+word_in_quote = print (word in quote) #output: False
 
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
